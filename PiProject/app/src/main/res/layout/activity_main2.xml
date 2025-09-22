@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:screenOrientation="landscape"
+    tools:context=".MainActivity">
+
+    <!--<SurfaceView
+        android:id="@+id/mySurfaceView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+    <WebView
+        android:id="@+id/mwebview"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="583dp" />
+
+    <Button
+            android:id="@+id/off"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ok" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/front"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:text="前" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/turn_left"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="左" />
+
+                    <Button
+                        android:id="@+id/stop"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="停" />
+
+                    <Button
+                        android:id="@+id/turn_right"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="右" />
+
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:text="后" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="50dp"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/up"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="60dp"
+                    android:text="@string/up" />
+
+                <LinearLayout
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/left"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/left" />
+
+                    <Button
+                        android:id="@+id/down"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/down" />
+
+                    <Button
+                        android:id="@+id/right"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:text="@string/right" />
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+</FrameLayout>

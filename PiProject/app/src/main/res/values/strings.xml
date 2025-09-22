@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PiProject</string>
+    <string name="open_light">开灯</string>
+    <string name="close_light">关灯</string>
+    <string name="front">前进</string>
+    <string name="turn_left">左转</string>
+    <string name="back">后退</string>
+    <string name="turn_right">右转</string>
+    <string name="up">上</string>
+    <string name="down">下</string>
+    <string name="left">左</string>
+    <string name="right">右</string>
+    <string name="stop">停止</string>
+    <string name="host_port">小车(host port)</string>
+    <string name="host_port2">检测(host port)</string>
+</resources>

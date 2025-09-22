@@ -1,0 +1,5 @@
+gcc car_server.c pca9685.c -o car_server -lwiringPi -lpthread
+sudo ./car_server 2001
+sudo i2cdetect -y 1
+telnet 192.168.1.100（树莓派ip） 2001
+
